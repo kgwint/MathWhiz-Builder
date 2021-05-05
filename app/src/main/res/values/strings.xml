@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">QuizGame</string>
+
+    <!--String values for main activity -->
+    <string name="greeting">Get ready to play</string>
+    <string name="difficulty">Select question difficulty</string>
+    <string name="begin">Begin</string>
+    <string name="rules">Rules</string>
+    <string name="scores">High Scores</string>
+    <string name="image_description">Math book</string>
+    <string name="EasyHighScore">Easy: 0</string>
+    <string name="MediumHighScore">Medium: 0</string>
+    <string name="HardHighScore">Hard: 0</string>
+    <string name="HighScores">High Scores</string>
+
+    <!--String values for rules activity -->
+    <string name="rules_title">Rules of the game</string>
+    <string name="home">Home</string>
+    <string name="rule1">1. The objective of this game is to you build your math skills.</string>
+    <string name="rule2">2. The goal is to answer as many questions correctly as possible by the end of the game.</string>
+    <string name="rule3">3. You will answer 10 questions throughout the game, which will be randomly generated.</string>
+    <string name="rule4">4. For each question answered correctly, you will score 10 points. Incorrect answers get a penalty of 10 points.</string>
+    <string name="rule5">5. You get to choose from 3 different sets of questions, which will have varying degrees of difficulty. Easy, medium,
+                           and hard are the difficulties you can choose from.</string>
+    <string name="rule6">6. You will have a certain amount of time to answer each question. If you choose the easy set, you will have 60 seconds to answer.
+                           If you choose the medium set, you will have 45 seconds to answer. If you choose the hard set, you will have 45 seconds to answer. </string>
+    <string name="rule7">7. If you fail to answer a question after the time limit, you will loose 20 points.</string>
+
+    <!--String values for question activity -->
+    <string name="score">Score: 0</string>
+    <string name="timer">0:30</string>
+    <string name="number">Question 1</string>
+    <string name="content">This is a question that acts as a place holder for this initial layout.</string>
+    <string name="option1">Option 1</string>
+    <string name="option2">Option 2</string>
+    <string name="option3">Option 3</string>
+    <string name="option4">Option 4</string>
+    <string name="next">Submit</string>
+    <string name="QuestionBox">Questions go in here</string>
+    <string name="ClockBox">Countdown clock goes here</string>
+    <string name="ScoreBox">Score goes here</string>
+</resources>

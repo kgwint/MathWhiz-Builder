@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".Rules">
+
+    <TextView
+        android:id="@+id/tvRules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/rules_title"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvRule1"
+        android:layout_width="353dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/rule1"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRules" />
+
+    <TextView
+        android:id="@+id/tvRule2"
+        android:layout_width="353dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/rule2"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRule1" />
+
+    <TextView
+        android:id="@+id/tvRule3"
+        android:layout_width="353dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="17dp"
+        android:text="@string/rule3"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRule2" />
+
+    <TextView
+        android:id="@+id/tvRule4"
+        android:layout_width="353dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/rule4"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRule3" />
+
+    <TextView
+        android:id="@+id/tvRule5"
+        android:layout_width="354dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="17dp"
+        android:text="@string/rule5"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRule4" />
+
+    <TextView
+        android:id="@+id/tvRule6"
+        android:layout_width="353dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/rule6"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRule5" />
+
+    <TextView
+        android:id="@+id/tvRule7"
+        android:layout_width="353dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="17dp"
+        android:text="@string/rule7"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRule6" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="100dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/light_brown"
+        android:onClick="viewHomePage"
+        android:text="@string/home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRule7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
